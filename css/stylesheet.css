@@ -1,0 +1,82 @@
+.page-1 h1,
+.page-1 h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.367);
+}
+
+highlight {
+    color: rgba(235, 235, 70, 0.729);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar {
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.menu,
+.h4 {
+    background-color: rgba(0, 0, 0, 0.07);
+    color: rgba(255, 255, 255, 0.367);
+    border: none;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.account,
+.h4 {
+    background-color: rgba(0, 0, 0, 0.07);
+    color: rgba(255, 255, 255, 0.367);
+    border: none;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+.account:hover,
+.menu:hover {
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgba(58, 53, 62, 0.4);
+}
+
+.discord {
+    width: 250px;
+    height: 226px;
+    border: none;
+    float: right;
+}
+
+.best {
+    font-family: Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgba(88, 84, 92, 0.2), rgba(37, 36, 39, 0.9));
+}
+
+hr.rounded {
+    border-top: 10px solid #bbb;
+}
+
+.table-1 {
+    font-family: Helvetica, sans-serif;
+    color: aliceblue;
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 180px 0;
+}
+
+th {
+    background-color: rgba(86, 86, 84, 0.729);
+    color: white;
+}
+
+.best h2 {
+    text-align: center;
+    font-weight: 400;
+}
