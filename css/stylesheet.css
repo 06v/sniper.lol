@@ -1,26 +1,11 @@
-.page-1 h1,
-.page-1 h3 {
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.367);
-}
-
-highlight {
-    color: rgba(235, 235, 70, 0.729);
-}
-
 body {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar {
-    overflow: hidden;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.07);
+highlight {
+    color: rgb(235, 235, 70);
 }
 
-.menu,
 .h4 {
     background-color: rgba(0, 0, 0, 0.07);
     color: rgba(255, 255, 255, 0.367);
@@ -30,12 +15,36 @@ body {
     margin: 5px;
 }
 
-.account,
-.h4 {
+.navbar h1,
+.page-1 h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.367);
+}
+
+.navbar {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.07);
+    border: 5px solid #ffff00a1;
+    display: block;
+    justify-content: center;
+}
+
+.navbar .account,
+.navbar .h4 {
     background-color: rgba(0, 0, 0, 0.07);
     color: rgba(255, 255, 255, 0.367);
     border: none;
     float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbar .menu {
+    background-color: rgba(0, 0, 0, 0.07);
+    color: rgba(255, 255, 255, 0.367);
+    border: none;
     padding: 5px;
     margin: 5px;
 }
@@ -55,12 +64,9 @@ body {
 }
 
 .best {
+    border-radius: 7px;
     font-family: Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgba(88, 84, 92, 0.2), rgba(37, 36, 39, 0.9));
-}
-
-hr.rounded {
-    border-top: 10px solid #bbb;
 }
 
 .table-1 {
